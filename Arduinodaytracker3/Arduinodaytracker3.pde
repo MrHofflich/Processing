@@ -42,14 +42,14 @@ String                              hashtag = "#Makersguaymas";
 boolean                             geoEnabled;
 
 // Informacion de acceso de Twitter
-static String OAuthConsumerKey    = "r43yKuuzcoMod1xtkXZnKVrJy";
-static String OAuthConsumerSecret = "mG9OhdhAPVgQT1Z4XE40JYudZucz3M1mCMGXNNDlRNK0ZGZMAn";
-static String AccessToken         = "2595305438-LmlF3R3fAtg919iH0Mp0vh2xPZaM9AkoWD4AfGL";
-static String AccessTokenSecret   = "boE2kF2hwJXTMAnUr2JPKXE1Czwt7sMaDkDhd6i1HPATI";
+static String OAuthConsumerKey    = "Tuconsumerkey";
+static String OAuthConsumerSecret = "TuConsumersecret";
+static String AccessToken         = "Tuaccesstoken";
+static String AccessTokenSecret   = "TuaccessTokenSecret";
 
 // Informacion de acceso a google
-       String accesoGoogle        = "&key=AIzaSyDlcvBg1TnOSG8kGGvJFp0Q9Wlab5L0KXE"; //Dsun Labs API KEY
-       String accesoGoogle2       = "&key=AIzaSyDM6Fp_hMl_DTL3cHKhp3JVL2NZYJRGw0o"; //Montiel.m API KEY
+       String accesoGoogle        = "TuApikeydeGoogle"; //Dsun Labs API KEY
+       String accesoGoogle2       = "TuotroapikeydeGoogle"; //Montiel.m API KEY
        int    contadorToken1,contadorToken2;
        
 
@@ -271,8 +271,3 @@ void mouseReleased() {
   //save("foto.png");
   println(mouseY);
 }
-
-
-
-
-
