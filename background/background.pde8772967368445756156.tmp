@@ -1,0 +1,94 @@
+void setup() {
+  
+}
+
+void draw() {
+  
+}
+
+class Background {
+  
+  private Button _Fondo;
+  private PFont font;
+  private float width,height;
+  private int day = day(); 
+  private String titulo = "PROTESS";
+  private String d;
+  private int mes;
+  private String y;
+  private int year = year();
+  private String[] years= {"Enero","Febrero","Marzo","Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre","Diciembre"};
+  private PShape recuardo;
+  private int s; 
+  private int m;
+  private int h;    // Values from 0 - 23
+  private String segundos;
+  private PShape protess;
+  
+  public Background(float width,float height) {
+    this.width = width;
+    this.height = height;
+    this.recuardo = loadShape("boton.svg");
+    this.protess = loadShape("myhoand.svg");
+    this.font = loadFont("URWGothicL-Demi-48.vlw");
+    this._Fondo = new Button(width,height);
+    smooth();
+  }
+  
+  protected void render() {
+     this._Fondo.boton2();
+     this._Fondo.interact2(); 
+     this.protess.disableStyle();
+     pushMatrix();
+     translate(0,0,16);
+    
+     fill(palette[0]);
+     ellipse(70,68,120,120);
+     shapeMode(CENTER);
+    
+     fill(0, 174, 172);
+     shape(protess,70,68);
+    
+     fill(0);
+     text(titulo,200,40);
+    
+     shapeMode(CORNER);
+     textFont(font,80);
+     fill(palette[6]);
+     popMatrix();
+  }
+  
+  public void time(){
+
+    d = String.valueOf(day);
+    y = String.valueOf(year);
+    mes = month();
+    s = second();
+    m = minute();
+    h = hour();
+    
+    pushMatrix();
+    translate(0,0,9);
+    
+    textSize(80);
+    fill(palette[6]);
+    
+    text(d,width-160,height/10);
+    
+    this.recuardo.disableStyle();
+    stroke(palette[2]);
+    fill(palette[2]);
+    shape(recuardo, width-155, height/9.3,120, 25);
+    textSize(20);
+    fill(0);
+    text(years[mes-1], width-151,height/8);
+    fill(0);
+    textSize(35);
+    text(s,width-58,height/6);
+    text(":",width-70,height/6);
+    text(m,width-111,height/6);
+    text(":",width-121,height/6);
+    text(h,width-165,height/6);
+    popMatrix();
+    
+  }
