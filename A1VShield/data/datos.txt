@@ -1,0 +1,4 @@
+Nombre,Nick,Edad,Ingreso,Estatus
+Alejandro Cortes,Master Chief,28,4/2/2015,Novato
+Tony Stark,Iron Man,40,2/10/205,Avenger
+Bruce Baner,Hulk,55,5/15/1990,Avenger
