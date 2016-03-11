@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="216.88739"
+   height="688.79169"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="hand-and-arm.svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     id="namedview16"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0947367"
+     inkscape:cx="107.37649"
+     inkscape:cy="276.53442"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">hand and arm</title>
+  <metadata
+     id="metadata7">image/svg+xml<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title>hand and arm</dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     id="g7"
+     transform="matrix(0,-1,1,0,-114.4956,688.76444)">
+    <title
+       id="title9">Layer 1</title>
+    <g
+       id="layer1">
+      <path
+         d="m 562.51697,360.54098 c -5.01795,25.73102 -82.12998,24.16001 -83.30496,0 C 478.038,336.38 486.57599,317.10101 483.20398,292.47699 476.37299,274.147 465.922,256.85101 464.397,236.905 c -3.57901,-15.517 0.077,-33.22299 -10.70898,-46.222 -9.46103,-16.002 -18.41302,-32.42 -24.83301,-49.91001 0.215,-18.72099 22.232,-9.46499 24.43097,4.83101 2.19904,14.29599 12.30502,28.56501 22.18903,37.635 10.55499,9.686 8.414,-14.185 5.98501,-22.06799 C 475.83701,142.92 473.961,123.036 467.00702,105.127 460.45898,88.262002 483.68402,79.533998 488.14899,97.431001 492.74298,115.844 501.245,134.133 505.59101,151.769 c 1.16998,4.74901 5.88098,22.681 4.89898,13.54001 -2.893,-26.90601 -13.02597,-54.76001 -18.36599,-81.934009 -3.297,-16.776901 23.10598,-14.596802 25.17996,1.938004 2.09302,16.691995 9.24005,32.929995 14.39105,49.205005 2.591,8.18599 -1.71301,24.92399 4.77801,27.80899 8.03699,-13.18 2.08698,-30.333 0.038,-44.638 0.34204,-13.37 -13.34198,-34.927997 3.58301,-42.021999 20.03302,-2.108398 18.05999,24.649999 22.93798,37.702999 5.73102,17.231 4.17005,35.30101 4.12201,53.125 1.35602,15.582 2.27704,31.372 6.37403,46.539 16.49896,6.474 14.72497,-21.715 26.96197,-27.54801 9.63403,-9.45799 23.60401,-16.84199 37.38202,-13.198 16.07098,9.30201 -2.12103,24.75301 -11.31805,31.12001 -12.25696,12.266 -19.81195,28.62301 -22.11792,45.698 -7.48005,14.54299 -23.27002,22.35301 -32.08405,36.127 -15.229,21.57401 -4.81799,49.57599 -9.83502,75.30798 z"
+         transform="matrix(0.04019632,0.9991918,-0.9991918,0.04019632,740.33999,-319.66183)"
+         id="path2170"
+         inkscape:connector-curvature="0"
+         style="fill:#ffd4aa" />
+    </g>
+    <path
+       d="m 144.90601,171.77008 c 0,0 -145.00049,-1.11235 -144.90601,-1.76976 0.09448,-0.65741 -0.09448,99.65676 0,98.99938 0.09448,-0.65742 148.90601,-3.79203 148,-4.44944"
+       stroke-width="null"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       id="svg_2"
+       inkscape:connector-curvature="0"
+       style="fill:#ffd4aa;stroke-dasharray:none" />
+    <path
+       d="m 284.82361,172.75174 c 0,0 -145.00051,-1.04494 -144.90602,-1.66248 0.0945,-0.61757 -0.0945,93.61728 0,92.99973 0.0945,-0.61755 148.90602,-3.5622 148.00001,-4.17978"
+       stroke-width="null"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       id="svg_1"
+       inkscape:connector-curvature="0"
+       style="fill:#ffd4aa;stroke-dasharray:none" />
+    <path
+       d="m 397.82361,173.68011 c 0,0 -145.00051,-1 -144.90602,-1.59098 0.0945,-0.59101 -0.0945,89.59098 0,88.99998 0.0945,-0.591 148.90602,-3.409 148.00001,-4"
+       stroke-width="null"
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       id="svg_3"
+       inkscape:connector-curvature="0"
+       style="fill:#ffd4aa;stroke-dasharray:none" />
+  </g>
+</svg>
