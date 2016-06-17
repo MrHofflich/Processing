@@ -6,18 +6,21 @@ import twitter4j.json.*;
 import twitter4j.management.*;
 import twitter4j.util.*;
 import java.util.*;
-import processing.video.*;
+//import processing.video.*;
+import gohai.glvideo.GLVideo;
+
 
 Twitter twitter;
 File file ;
 int numPixels;
 int[] previousFrame;
-Capture video;
-String rutaFotos = "C:/Users/MrHofflich/Desktop";
+//Capture video;
+GLVideo video;
+String rutaFotos = "/home/pi/Desktop";
 
 void setup()
 {
-  size(640,480);
+  size(640,480,P2D);
     
   ConfigurationBuilder cb = new ConfigurationBuilder();
   cb.setOAuthConsumerKey("");
@@ -28,9 +31,11 @@ void setup()
   twitter = tf.getInstance();
   // This the default video input, see the GettingStartedCapture 
   // example if it creates an error
-  video = new Capture(this, 640,480);
+  //video = new Capture(this, 640,480);
   // Start capturing the images from the camera
-  video.start(); 
+  //video.start(); 
+  video = new GLVideo(this, "v4l2:///dev/video0");
+  video.play();
   
   numPixels = video.width * video.height;
   // Create an array to store the previously captured frame
