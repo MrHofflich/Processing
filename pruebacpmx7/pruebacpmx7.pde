@@ -20,7 +20,7 @@ String rutaFotos = "/home/pi/Desktop";
 
 void setup()
 {
-  size(640,480);
+  size(640,480,P2D);
     
   ConfigurationBuilder cb = new ConfigurationBuilder();
   cb.setOAuthConsumerKey("");
